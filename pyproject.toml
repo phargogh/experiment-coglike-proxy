@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coglike-proxy"
+version = "0.1.0"
+description = "Serve VRT rasters over HTTP as virtual Cloud Optimized GeoTIFFs"
+requires-python = ">=3.10"
+# GDAL Python bindings (>=3.8) are expected from conda-forge; see environment.yml.
+dependencies = ["numpy"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

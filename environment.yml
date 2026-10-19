@@ -1,0 +1,8 @@
+name: coglike-proxy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - gdal>=3.8
+  - numpy
+  - pytest
