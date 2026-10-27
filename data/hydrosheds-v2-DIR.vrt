@@ -1,0 +1,817 @@
+<VRTDataset rasterXSize="504000" rasterYSize="540000">
+  <SRS dataAxisToSRSAxisMapping="2,1">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -1.7000000000000000e+02,  2.7777777777767299e-04,  0.0000000000000000e+00,  9.0000000000000000e+01,  0.0000000000000000e+00, -2.7777777777781497e-04</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <Metadata>
+      <MDI key="BandName">Band_1</MDI>
+      <MDI key="RepresentationType">THEMATIC</MDI>
+      <MDI key="STATISTICS_MAXIMUM">128</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+    </Metadata>
+    <Description>Band_1</Description>
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n00w050_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="432000" yOff="288000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n00w060_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="396000" yOff="288000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n00w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="288000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n00w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="288000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n00w090_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="288000" yOff="288000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n00w100_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="252000" yOff="288000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n10w060_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="396000" yOff="252000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n10w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="252000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n10w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="252000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n10w090_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="288000" yOff="252000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n10w100_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="252000" yOff="252000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n10w110_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="216000" yOff="252000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n10w120_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="180000" yOff="252000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n20w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="216000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n20w090_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="288000" yOff="216000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n20w100_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="252000" yOff="216000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n20w110_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="216000" yOff="216000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n20w120_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="180000" yOff="216000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n30w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="180000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n30w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="180000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n30w090_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="288000" yOff="180000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n30w100_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="252000" yOff="180000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n30w110_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="216000" yOff="180000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n30w120_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="180000" yOff="180000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n30w130_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="144000" yOff="180000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n40w060_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="396000" yOff="144000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n40w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="144000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n40w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="144000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n40w090_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="288000" yOff="144000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n40w100_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="252000" yOff="144000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n40w110_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="216000" yOff="144000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n40w120_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="180000" yOff="144000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n40w130_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="144000" yOff="144000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n50w060_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="396000" yOff="108000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n50w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="108000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n50w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="108000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n50w090_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="288000" yOff="108000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n50w100_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="252000" yOff="108000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n50w110_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="216000" yOff="108000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n50w120_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="180000" yOff="108000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n50w130_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="144000" yOff="108000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n50w140_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="108000" yOff="108000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n50w150_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="72000" yOff="108000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n50w160_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="36000" yOff="108000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n50w170_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="0" yOff="108000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n60w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="72000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n60w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="72000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n60w090_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="288000" yOff="72000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n60w100_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="252000" yOff="72000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n60w110_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="216000" yOff="72000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n60w120_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="180000" yOff="72000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n60w130_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="144000" yOff="72000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n60w140_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="108000" yOff="72000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n60w150_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="72000" yOff="72000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n60w160_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="36000" yOff="72000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n60w170_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="0" yOff="72000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n70w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="36000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n70w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="36000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n70w090_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="288000" yOff="36000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n70w100_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="252000" yOff="36000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n70w110_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="216000" yOff="36000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n70w120_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="180000" yOff="36000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n70w130_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="144000" yOff="36000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n70w140_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="108000" yOff="36000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n70w150_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="72000" yOff="36000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n70w160_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="36000" yOff="36000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n70w170_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="0" yOff="36000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n80w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="0" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n80w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="0" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n80w090_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="288000" yOff="0" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n80w100_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="252000" yOff="0" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/n80w110_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="216000" yOff="0" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s10w040_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="468000" yOff="324000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s10w050_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="432000" yOff="324000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s10w060_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="396000" yOff="324000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s10w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="324000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s10w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="324000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s10w090_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="288000" yOff="324000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s10w100_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="252000" yOff="324000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s20w040_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="468000" yOff="360000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s20w050_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="432000" yOff="360000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s20w060_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="396000" yOff="360000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s20w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="360000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s20w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="360000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s30w050_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="432000" yOff="396000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s30w060_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="396000" yOff="396000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s30w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="396000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s30w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="396000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s30w090_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="288000" yOff="396000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s40w060_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="396000" yOff="432000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s40w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="432000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s40w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="432000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s40w090_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="288000" yOff="432000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s50w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="468000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s50w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="468000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s60w040_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="468000" yOff="504000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s60w050_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="432000" yOff="504000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s60w060_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="396000" yOff="504000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s60w070_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="360000" yOff="504000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://data.hydrosheds.org/file/hydrosheds-v2/DIR/1s/s60w080_DIR_1s_v2r0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="36000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="36000" />
+      <DstRect xOff="324000" yOff="504000" xSize="36000" ySize="36000" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <OverviewList resampling="nearest">2 4 8 16 32 64</OverviewList>
+</VRTDataset>
