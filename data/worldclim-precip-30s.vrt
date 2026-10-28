@@ -1,0 +1,109 @@
+<VRTDataset rasterXSize="43200" rasterYSize="21600">
+  <SRS dataAxisToSRSAxisMapping="2,1">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -1.8000000000000000e+02,  8.3333333333333332e-03,  0.0000000000000000e+00,  9.0000000000000000e+01,  0.0000000000000000e+00, -8.3333333333333332e-03</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MEAN">nan</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">nan</MDI>
+    </Metadata>
+    <NoDataValue>-32768</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="43200" RasterYSize="21600" DataType="Int16" BlockXSize="43200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <DstRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_02.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="43200" RasterYSize="21600" DataType="Int16" BlockXSize="43200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <DstRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_03.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="43200" RasterYSize="21600" DataType="Int16" BlockXSize="43200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <DstRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_04.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="43200" RasterYSize="21600" DataType="Int16" BlockXSize="43200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <DstRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_05.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="43200" RasterYSize="21600" DataType="Int16" BlockXSize="43200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <DstRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_06.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="43200" RasterYSize="21600" DataType="Int16" BlockXSize="43200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <DstRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_07.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="43200" RasterYSize="21600" DataType="Int16" BlockXSize="43200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <DstRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_08.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="43200" RasterYSize="21600" DataType="Int16" BlockXSize="43200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <DstRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_09.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="43200" RasterYSize="21600" DataType="Int16" BlockXSize="43200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <DstRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_10.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="43200" RasterYSize="21600" DataType="Int16" BlockXSize="43200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <DstRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_11.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="43200" RasterYSize="21600" DataType="Int16" BlockXSize="43200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <DstRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_12.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="43200" RasterYSize="21600" DataType="Int16" BlockXSize="43200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <DstRect xOff="0" yOff="0" xSize="43200" ySize="21600" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

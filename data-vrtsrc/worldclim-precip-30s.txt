@@ -1,0 +1,12 @@
+/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_01.tif
+/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_02.tif
+/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_03.tif
+/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_04.tif
+/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_05.tif
+/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_06.tif
+/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_07.tif
+/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_08.tif
+/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_09.tif
+/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_10.tif
+/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_11.tif
+/vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_prec.zip/wc2.1_30s_prec_12.tif
